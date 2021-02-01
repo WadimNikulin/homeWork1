@@ -1,5 +1,0 @@
-secAll = int(input("Введите время в секундах: "))
-hour = int((secAll - (secAll % 3600)) / 3600)
-minute = int((((secAll - (hour * 3600)) - ((secAll - (hour * 3600)) % 60))) / 60)
-sec = int(secAll - (hour * 3600) - (minute * 60))
-print(hour,":", minute,":", sec)
